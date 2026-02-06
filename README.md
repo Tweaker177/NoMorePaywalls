@@ -2,8 +2,6 @@
 <div align="center">
   <h1>NoMorePaywalls</h1>
   <p>🍏 A jailbreak tweak for Apple News — no paywalls, all articles visible.</p>
-  [![License: MIT](https://img.shields.io/github/license/Tweaker177/NoMorePaywalls)](LICENSE)
-  [![GitHub stars](https://img.shields.io/github/stars/Tweaker177/NoMorePaywalls)](https://github.com/Tweaker177/NoMorePaywalls/stargazers)
 </div>
 
 ## 📌 What It Is
