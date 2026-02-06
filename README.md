@@ -1,6 +1,6 @@
 # NoMorePaywalls
 <div align="center">
-  <h1>NoMorePaywalls</h1>
+  <h2>NoMorePaywalls</h2>
   <p>🍏 A jailbreak tweak for Apple News — no paywalls, all articles visible.</p>
 </div>
 
@@ -24,34 +24,35 @@ Built for people who want full access to stories without subscription walls.
 ## 🛠️ How To Build
 
 ```sh
-git clone https://github.com/Tweaker177/NoMorePaywalls.git
+git clone https://github.com/Tweaker177/NoMorePaywalls
 cd NoMorePaywalls
 # customize target (rootless / rootful)
 make package
 ```
-Notes
+<h3>Notes</h3>
 	•	Configure rootless vs rootful in the Makefile if needed
 	•	Built using Theos
 	•	Targets Apple News private frameworks
 
 ⸻
 
-Installation
+<h3>Installation</h3>
 
 Install the generated .deb using your preferred package manager:
+
 	•	Sileo
 	•	Zebra
 	•	Cydia
 
 Or manually via:
 ```sh
-dpkg -i NoMorePaywalls*.deb
+dpkg -i NoMorePaywalls.deb
 ```
 Respring after installation.
 
 ⸻
 
-How It Works 
+<h3>How It Works</h3>
 
 Apple News performs multiple internal checks to determine whether content should be restricted to News+ subscribers.
 
