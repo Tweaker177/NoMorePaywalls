@@ -28,7 +28,7 @@ git clone https://github.com/Tweaker177/NoMorePaywalls.git
 cd NoMorePaywalls
 # customize target (rootless / rootful)
 make package
-
+```
 Notes
 	•	Configure rootless vs rootful in the Makefile if needed
 	•	Built using Theos
@@ -46,7 +46,7 @@ Install the generated .deb using your preferred package manager:
 Or manually via:
 ```sh
 dpkg -i NoMorePaywalls*.deb
-
+```
 Respring after installation.
 
 ⸻
