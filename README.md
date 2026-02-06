@@ -29,3 +29,47 @@ cd NoMorePaywalls
 # customize target (rootless / rootful)
 make package
 
+Notes
+	•	Configure rootless vs rootful in the Makefile if needed
+	•	Built using Theos
+	•	Targets Apple News private frameworks
+
+⸻
+
+Installation
+
+Install the generated .deb using your preferred package manager:
+	•	Sileo
+	•	Zebra
+	•	Cydia
+
+Or manually via:
+```sh
+dpkg -i NoMorePaywalls*.deb
+
+Respring after installation.
+
+⸻
+
+How It Works 
+
+Apple News performs multiple internal checks to determine whether content should be restricted to News+ subscribers.
+
+This tweak hooks those decision points and neutralizes the gating logic, allowing full article rendering without modifying UI state or network responses.
+
+Details are intentionally kept high-level.
+
+⸻
+
+
+Legal / Disclaimer
+
+This project is provided for research and educational purposes only.
+
+You are responsible for how you use it.
+
+⸻
+
+License
+
+MIT
