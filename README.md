@@ -1,13 +1,12 @@
 # NoMorePaywalls
 <div align="center">
-  <h2>NoMorePaywalls</h2>
   <p>🍏 A jailbreak tweak for Apple News — no paywalls, all articles visible.</p>
 </div>
 
 ## 📌 What It Is
 
 **NoMorePaywalls** removes News+ paywall barriers in Apple News on jailbroken iOS devices.  
-Built for people who want full access to stories without subscription walls.
+Built for people who want full access to stories without an expensive monthly subscription.
 
 ⚠️ *Requires a jailbroken iOS device and tweak injection support (e.g., Substitute / libhooker).*  
 
@@ -31,6 +30,8 @@ make package
 ```
 <h3>Notes</h3>
 	•	Configure rootless vs rootful in the Makefile if needed
+  •	add "-arm64" to the architecture type in the control file if rootless is desired.
+    it should say "iphoneos-arm64" 
 	•	Built using Theos
 	•	Targets Apple News private frameworks
 
