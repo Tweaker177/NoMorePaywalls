@@ -1,0 +1,9 @@
+Package: com.iosgods.nomorepaywalls
+Name: NoMorePaywalls
+Version: 0.0.6
+Architecture: iphoneos-arm
+Description: Allows access to all articles in the news app, without faking a purchase. All of News Plus is now available for free, including the new NewsStand in iOS 16. Orginally I purposely left the suggestion banners to sign up for monthly membership, but it looks much cleaner without it. This is a rootless build for iOS 15+
+Author: i0s_tweak3r
+Maintainer: i0s_tweak3r
+Depends: mobilesubstrate (>= 0.9.5000), firmare (>=11.0)
+Section: Tweaks
