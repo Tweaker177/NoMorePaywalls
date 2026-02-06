@@ -30,10 +30,14 @@ make package
 ```
 <h3>Notes</h3>
 	•	Configure rootless vs rootful in the Makefile if needed
+
   •	add "64" to the architecture type in the control file if rootless is desired.
     it should say "iphoneos-arm64" if rootless otherwise "iphoneos-arm"
+
 	•	Built using Theos
+
 	•	Targets Apple News private frameworks
+
 
 ⸻
 
